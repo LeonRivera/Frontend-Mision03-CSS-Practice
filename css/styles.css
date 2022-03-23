@@ -161,3 +161,33 @@ ul{
     padding: 2rem;
     border: 1px solid black;
 }
+
+.cards-cube{
+    display: grid;
+    width: 100%;
+    padding: 10rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.card-cube{
+    border: 1px solid black;
+}
+
+footer{
+    margin-top: 10rem;
+    width: 100%;
+    height: 30rem;
+    padding: 5rem 5rem 0 5rem;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.footer-options{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-options>div{
+    display: flex;
+    flex-direction: column;
+}
